@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+.check, .delete {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.check:hover, .delete:hover {
+    background-color: #2980b9;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete {
+    background-color: #e74c3c; /* Cor vermelha */
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #c0392b; /* Cor vermelha mais escura no hover */
+}
